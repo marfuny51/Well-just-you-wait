@@ -1,0 +1,243 @@
+#main {
+  width: 68vw;
+  height: 40vw;
+  background: url("/images/main_fon.svg");
+  background-size: cover;
+  margin: 4.2vw auto 0 auto;
+}
+
+#fon {
+  width: 70vw;
+  position: absolute;
+  top: 6vw;
+  left: 15vw;
+}
+
+#chick_right {
+  opacity: 0;
+}
+
+#chick_left {
+   opacity: 0;
+}
+
+#chick_break1, #chick_break2, #chick_break3, #head_right, #chick_right_run, #chick_left_run {
+  display: none;
+}
+
+#gameOver {
+  width: 23vw;
+  height: 14vw;
+  background: url("/images/game_over_background.svg");
+  background-size: cover;
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2.5vw;
+  color: #565555;
+  padding-top: 1vw;
+  position: absolute;
+  top: 19vw;
+  left: 38.5vw;
+  display: none;
+}
+
+#first {
+  position: absolute;
+  top: 6.2vw;
+  left: 6vw;
+}
+
+#lastCount {
+  position: absolute;
+  top: 6.2vw;
+  left: 15vw;
+}
+
+#second {
+  width: 6vw;
+  height: 5vw;
+  position: absolute;
+  top: 8.5vw;
+  left: 8.5vw;
+}
+
+#second2 {
+  width: 6vw;
+  height: 5vw;
+  position: absolute;
+  top: 8.5vw;
+  left: 8.5vw;
+  display: none;
+}
+
+#registration {
+  width: 25vw;
+  height: 14vw;
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5vw;
+  padding-top: 0.5vw;
+  background: url("/images/enter_your_name_background.svg");
+  background-size: cover;
+  position: absolute;
+  top: 19vw;
+  left: 37.5vw;
+  display: none;
+}
+
+#gName {
+  width: 13vw;
+  height: 1.5vw;
+  position: absolute;
+  top: 6vw;
+  left: 6vw;
+}
+
+#remember {
+  width: 6vw;
+  height: 5vw;
+  position: absolute;
+  top: 8.5vw;
+  left: 5.5vw;
+}
+
+#remember1 {
+  width: 6vw;
+  height: 5vw;
+  position: absolute;
+  top: 8.5vw;
+  left: 5.5vw;
+  display: none;
+}
+
+#closeR {
+  width: 6vw;
+  height: 5vw;
+  position: absolute;
+  top: 8.5vw;
+  left: 13.8vw;
+}
+
+#closeR1 {
+  width: 5vw;
+  height: 5vw;
+  position: absolute;
+  top: 8.5vw;
+  left: 14.3vw;
+  display: none;
+}
+
+#table {
+  width: 43vw;
+  height: 28vw;
+  background: url("/images/game_record_background.svg");
+  background-size: cover;
+  position: absolute;
+  left: 28.5vw;
+  top: -43vw;
+  border-radius: 1vw;
+  display: none;
+  animation: table_go 2s;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
+
+@keyframes table_go {  
+    from {top: -43vw;}
+    to {top: 9.5vw;}
+  }
+
+#textTable {
+  position: absolute;
+  top: 6.5vw;
+  left: 17vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5vw;
+  color: #565555;
+}
+
+#closeTable {
+  width: 6vw;
+  height: 4vw;
+  position: absolute;
+  top: 22.5vw;
+  left: 18.5vw;
+}
+
+#closeTable1 {
+  width: 6vw;
+  height: 4vw;
+  position: absolute;
+  top: 22.5vw;
+  left: 18.5vw;
+  display: none;
+}
+
+#rules {
+  width: 43vw;
+  height: 28vw;
+  background: url("/images/game_rules_background.svg");
+  background-size: cover;
+  position: absolute;
+  left: 28.5vw;
+  top: -43vw;
+  border-radius: 1vw;
+  display: none;
+  animation: table_go 2s;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
+
+#textRules {
+  position: absolute;
+  top: 6vw;
+  left: 4vw;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.1vw;
+  width: 35vw;
+  text-align: justify;
+  color: #565555;
+}
+
+#closeRules {
+  width: 6vw;
+  height: 4vw;
+  position: absolute;
+  top: 22.5vw;
+  left: 18.5vw;
+}
+
+#closeRules1 {
+  width: 6vw;
+  height: 4vw;
+  position: absolute;
+  top: 22.5vw;
+  left: 18.5vw;
+  display: none;
+}
+
+#downRight1, #upRight1, #downLeft1, #upLeft1, #start1, #tableButton1, #ruleButton1 {
+  display: none;
+}
+
+#score {
+  font-family: 'Kelly Slab', cursive;
+}
+
+#soundOn {
+  width: 2vw;
+  height: 2vw;
+  position: absolute;
+  top: 6vw;
+  left: 66vw;
+}
+
+#soundOff {
+  width: 2vw;
+  height: 2vw;
+  position: absolute;
+  top: 6vw;
+  left: 66vw;
+  display: none;
+}
+
