@@ -1,0 +1,2 @@
+# Well-just-you-wait-
+Four chickens are sitting on the roosts and laying eggs, which rolling down four trays. The wolf must catch the maximum number of eggs to the basket. The player gets a point for every caught egg. The player gets a penalty point for every egg falls. The game will be over if three eggs fall. The speed of eggs is constantly growing. The number of caught and fallen eggs is displayed on the screen of the playing field.
